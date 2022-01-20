@@ -5,8 +5,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
+}
+
+h1
+{
+    margin-left: 30px;
+}
+
+p
+{
+    margin-left: 17px;
 }
 
 body
@@ -27,12 +35,13 @@ body
 }
 
 ul {
+  list-style: none;
   width: 100%;
 }
 
 .tasks-item {
   margin: 10px;
-  border: 2px solid grey;
+  border: 1px solid white;
   padding: 15px;
   border-radius: 5px;
 }

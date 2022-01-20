@@ -5,6 +5,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
 
 body
@@ -22,4 +24,15 @@ body
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+ul {
+  width: 100%;
+}
+
+.tasks-item {
+  margin: 10px;
+  border: 2px solid grey;
+  padding: 15px;
+  border-radius: 5px;
 }
